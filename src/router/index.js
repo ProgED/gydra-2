@@ -3,55 +3,55 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Счет',
     meta: {layout: 'main'},
     component: () => import('../views/Home.vue')
   },
   {
     path: '/login',
-    name: 'login',
+    name: 'Вход',
     meta: {layout: 'empty'},
     component: () => import('../views/Login.vue')
   },
   {
     path: '/register',
-    name: 'register',
+    name: 'Регистрация',
     meta: {layout: 'empty'},
     component: () => import('../views/Register.vue')
   },
   {
     path: '/categories',
-    name: 'categories',
+    name: 'Категории',
     meta: {layout: 'main'},
     component: () => import('../views/Categories.vue')
   },
   {
     path: '/detail-record',
-    name: 'detail-record',
+    name: 'Данные записи',
     meta: {layout: 'main'},
     component: () => import('../views/DetailRecord.vue')
   },
   {
     path: '/history',
-    name: 'history',
+    name: 'История',
     meta: {layout: 'main'},
     component: () => import('../views/History.vue')
   },
   {
     path: '/planning',
-    name: 'planning',
+    name: 'Планирование',
     meta: {layout: 'main'},
     component: () => import('../views/Planning.vue')
   },
   {
     path: '/profile',
-    name: 'profile',
+    name: 'Профиль',
     meta: {layout: 'main'},
     component: () => import('../views/Profile.vue')
   },
   {
     path: '/record',
-    name: 'record',
+    name: 'Новая запись',
     meta: {layout: 'main'},
     component: () => import('../views/Record.vue')
   }
